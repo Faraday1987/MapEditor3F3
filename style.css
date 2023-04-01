@@ -1,0 +1,93 @@
+#canvas {
+    position:absolute;
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    cursor: pointer;
+    margin-block-start: 82px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    padding-top: 1rem;
+    background-color:rgba(255, 255, 255, 0.833);
+    pointer-events: none;
+    /* padding-inline: 2rem; */
+    
+}
+
+button {
+    pointer-events: all;
+    cursor: pointer;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    border-radius: 1rem;
+    border: none;
+    height: auto;
+    transition: all;
+}
+button:hover {
+    background-color: rgb(255, 255, 255);
+}
+button:active {
+    background-color: rgb(195, 195, 195);
+}
+
+.icon-btn {
+  border: none;
+  background-color: #ffffff;
+  color: black;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+}
+
+/* Icon styles */
+.icon-btn i {
+  margin-right: 10px;
+}
+
+/* Active state */
+.icon-btn:active {
+  background-color: #00cc22;
+}
+
+/* Pressed state */
+.icon-btn:active i {
+  transform: translateY(2px);
+}
+
+/* Hover state */
+.icon-btn:hover {
+  background-color: #d2d2d2;
+}
+
+.icon-btn:hover i {
+  transform: translateY(-2px);
+}
+
+.active {
+    background-color: #00cc3a;
+}
+.inactive {
+    background-color: #ffffff;
+}
+
+
+.footer {
+    position: absolute;
+    text-align: center;    
+    bottom: 0;
+    padding-block: 10px;
+    width: 100%;
+    border: 1px solid #000000;
+    background-color: #ffffff;
+    pointer-events: none;
+}

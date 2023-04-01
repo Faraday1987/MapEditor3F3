@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <link rel="icon" type="image/ico" href="/assets/images/favicon.ico"/>
+
+    <title>Map Editor</title>
+    <link rel="stylesheet" href="/assets/css/utils/normalize.css">
+    <link rel="stylesheet" href="/assets/css/utils/reset.css">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <canvas id="canvas"></canvas>
+    <main class="container">
+        <header class="container">
+            <button id="export-json" class="icon-btn">
+                <img src="assets/ui/export-json.png" alt="">
+            </button>
+            <button id="add-path" class="icon-btn">
+                <img src="assets/ui/add_path.png" alt="">W
+            </button>
+            <button id="connect-nodes" class="icon-btn">
+                <img src="assets/ui/connect.png" alt="">C
+            </button>
+            <button id="add-connection" class="icon-btn">
+                <img src="assets/ui/add_lines.png" alt="">S
+            </button>
+
+            <button id="drag-node" class="icon-btn">
+                <img src="assets/ui/drag_node.png" alt="button">
+                SHIFT
+            </button>
+
+            <button id="remove-node" class="icon-btn">
+                <img src="assets/ui/delete_node.png" alt="">D
+            </button>
+            
+            <button id="remove-line" class="icon-btn">
+                <img src="assets/ui/delete_link.png" alt="">R
+            </button>
+
+        </header>
+        <footer class="footer">
+            <p id="infotxt">INFOHERE</p>
+        </footer>
+    </main>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
